@@ -1,0 +1,32 @@
+{
+  "environment": "dev",
+  "project_name": "Demo UI GemJar Project",
+  "report_name": "Sanity test",
+  "enter_point": "https://apis.gemecosystem.com/gemEcosystemDashboard/v1/enter-point",
+  "tags": "",
+  "feature": "src/test/resources/features",
+  "glue_code": "com.qa.projectName.stepDefinitions",
+  "jewel_user": "",
+  "jewel_bridge_token": "",
+  "console_report": "n",
+  "jewel_screen_shots": "y",
+  "event_firing": "n",
+  "email_report": "n",
+  "email_to": "",
+  "browser_options": "[--incognito]",
+    "dev": {
+    "browser_name": "chrome",
+    "launch_url": "https://www.amazon.in/",
+    "browser_timeout": 20,
+      "email": "",
+      "password": ""
+    },
+  "prod": {
+    "browser_name": "chrome",
+    "launch_url": "",
+    "browser_timeout": 20,
+      "email": "",
+    "password": ""
+  }
+}
+
